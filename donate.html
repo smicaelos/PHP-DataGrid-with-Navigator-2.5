@@ -27,7 +27,15 @@
 							<p>&nbsp;</p>
 			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="T3W7XYMQ7K842">
+			<input type="hidden" name="hosted_button_id" value="CX9A6M6LTJW94">
+			<table>
+			<tr><td><input type="hidden" name="on0" value="Quantity">Quantity</td></tr><tr><td><select name="os0">
+				<option value="Option 1">Option 1 €2,50 EUR</option>
+				<option value="Option 2">Option 2 €3,50 EUR</option>
+				<option value="Option 3">Option 3 €5,00 EUR</option>
+			</select> </td></tr>
+			</table>
+			<input type="hidden" name="currency_code" value="EUR">
 			<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
 			<img alt="" border="0" src="https://www.paypalobjects.com/pt_PT/i/scr/pixel.gif" width="1" height="1">
 			</form>
